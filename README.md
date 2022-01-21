@@ -28,6 +28,8 @@ You can get the user ID from profile URLs, example `12345678N00` from:
 
 This tool will try to download the largest size of the photos. The downloaded photos are in `download` directory.
 
+The log files in `log` directory contains downloaded IDs, which will be ignored in the next times you download.
+
 ## Known Issue
 
 I'm using `Python 3.10.2` with `FlickrAPI 2.4.0`, so I got this error:
